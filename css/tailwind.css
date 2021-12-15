@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+
+@import "tailwindcss/utilities";
+
+@import './others.css';
+.open{
+    @apply left-0
+  }
+
+  .demo{
+    @apply bg-green-500 h-96 w-96 m-10
+  }
+

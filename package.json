@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss_with_vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set TAILWIND_MODE=watch&postcss css/tailwind.css -o css/styles.css -w --verbose",
+    "build": "NODE_ENV=production postcss css/tailwind.css -o css/styles.css -m"
+  },
+  "keywords": [],
+  "author": "Emran Ibn Shayed",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.5"
+  },
+  "dependencies": {
+    "daisyui": "^1.14.2",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2"
+  }
+}
